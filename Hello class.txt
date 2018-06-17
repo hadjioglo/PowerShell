@@ -1,3 +1,6 @@
-Hello again
+#check if var >= 25 and print result to console
 
-print Hello mtf
+$var=42
+if ($var -gt 25){
+    Write-host "var is greater than 25"
+}
