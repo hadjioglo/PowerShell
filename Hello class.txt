@@ -1,6 +1,9 @@
 #check if var >= 25 and print result to console
 
-$var=42
+$var=15
 if ($var -gt 25){
     Write-host "var is greater than 25"
+}
+else {
+Write-host "var is less than 25"
 }
