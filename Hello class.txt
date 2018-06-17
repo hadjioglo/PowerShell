@@ -7,3 +7,18 @@ if ($var -gt 25){
 else {
 Write-host "var is less than 25"
 }
+
+for ($i=1; $i -le 5; $i++) {
+    $i
+}
+
+$numbers = @("one", "two", "three", "four", "five")
+foreach ($number in $numbers){
+    $number
+}
+
+$DateModified = 0
+while ($DateModified -lt 3 ) {
+ $DateModified++
+ Write-host "DateModified -lessthen 3"
+}
